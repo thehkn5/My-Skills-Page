@@ -1,0 +1,132 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: hsla(15, 15%, 5%, 0.8);
+    color:whitesmoke;
+    overflow-x:hidden;
+}
+
+.display-flex {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+}
+
+
+.myskills-navbar {
+    margin: 3rem;
+    font-size:2rem;
+}
+
+.unordered-list {
+    list-style: none;
+    padding:2rem;
+    display:flex;
+    gap:1rem;
+}
+a {
+    color:White;
+    text-decoration:none;
+}
+a:visited {
+    color:whitesmoke;
+}
+a:hover {
+    color:bisque;
+}
+
+a:active {
+    color:red;
+}
+
+.heading2 {
+    border-bottom: 3px solid green;
+    text-align:center;
+    font-size:2rem;
+}
+/* General HTML section guidelines */
+.myskills {
+    padding:1rem;
+    margin:0.3rem;
+}
+
+/* Centering the div of html here */
+.container {
+    padding:1rem;
+    margin:0.3rem;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    width:100%;
+}
+/* Centering the paragraph right here */
+.center-this {
+    text-align:justify;
+    flex-wrap:wrap;
+}
+/* Centering the figcaption here */
+
+figcaption {
+    text-align:center;
+    margin-bottom:0.7rem;
+}
+/* centering the logo right here */
+.photo {
+    display:flex;
+    justify-content:center;
+    margin-bottom:1rem;
+}
+/* image's responsive size property */
+
+img {
+    width:15%;
+    height:auto;
+}
+ 
+.container-grid {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr;
+
+}
+
+
+
+
+
+
+
+
+/* 
+.myskills-html {
+    grid-area:HTML;
+}
+.myskills-CSS3 {
+    grid-area:CSS;
+}
+
+.myskills-Javascript {
+    grid-area:JS;
+}
+
+.myskills-Python {
+    grid-area:Py;
+}
+
+.myskills-Saas {
+    grid-area:SA;
+}
+
+.myskills-mysql {
+    grid-area:MY;
+} */
+/* Notes Section */
+/* - I have coded the text-align center for all of the figcaptions in this page. It is in 60th line.
+   - I have applied same code to all images on this page. It is in 72th line.
+   -  */
